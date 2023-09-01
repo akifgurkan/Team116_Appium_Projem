@@ -7,6 +7,7 @@ public class Grid_03 {
 
     DriverManage driverManage = new DriverManage();
 
+    
     @Test
     void test01(){
         driverManage.setUpChromeDriver().get("https://www.google.com");
@@ -21,16 +22,16 @@ public class Grid_03 {
     }
        @Test
     void test04(){
-        driverManage.setUpChromeDriver().get("https://www.wisequarter.com");
+        driverManage.setUpChromeDriver().get("https://www.yahoo.com");
     }
     @Test
     void test05(){
-        driverManage.setUpFirefoxDriver().get("https://www.wisequarter.com");
+        driverManage.setUpFirefoxDriver().get("https://www.yahoo.com");
     }
 
     @Test
     void test06(){
-        driverManage.setUpEdgeDriver().get("https://www.wisequarter.com");
+        driverManage.setUpEdgeDriver().get("https://www.yahoo.com");
     }
 
 }
